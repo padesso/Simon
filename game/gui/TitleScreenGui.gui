@@ -1,0 +1,86 @@
+//--- OBJECT WRITE BEGIN ---
+%guiContent = new GuiControl(TitleScreenGui) {
+   canSaveDynamicFields = "0";
+   isContainer = "1";
+   Profile = "GuiDefaultProfile";
+   HorizSizing = "right";
+   VertSizing = "bottom";
+   Position = "0 0";
+   Extent = "800 600";
+   MinExtent = "8 2";
+   canSave = "1";
+   Visible = "1";
+   hovertime = "1000";
+
+   new GuiBitmapCtrl() {
+      canSaveDynamicFields = "0";
+      isContainer = "0";
+      Profile = "GuiDefaultProfile";
+      HorizSizing = "right";
+      VertSizing = "bottom";
+      Position = "192 144";
+      Extent = "375 375";
+      MinExtent = "8 2";
+      canSave = "1";
+      Visible = "1";
+      hovertime = "1000";
+      bitmap = "~/gui/images/MenuBackground.png";
+      wrap = "0";
+   };
+   new GuiBitmapButtonCtrl() {
+      canSaveDynamicFields = "0";
+      isContainer = "0";
+      Profile = "GuiDefaultProfile";
+      HorizSizing = "right";
+      VertSizing = "bottom";
+      Position = "288 192";
+      Extent = "200 75";
+      MinExtent = "8 2";
+      canSave = "1";
+      Visible = "1";
+      Command = "playIntroAnim();";
+      hovertime = "1000";
+      groupNum = "-1";
+      buttonType = "PushButton";
+      useMouseEvents = "0";
+      bitmap = "~/gui/images/StartGame";
+   };
+   new GuiBitmapButtonCtrl() {
+      canSaveDynamicFields = "0";
+      isContainer = "0";
+      Profile = "GuiDefaultProfile";
+      HorizSizing = "right";
+      VertSizing = "bottom";
+      Position = "288 304";
+      Extent = "200 75";
+      MinExtent = "8 2";
+      canSave = "1";
+      Visible = "1";
+      Command = "quit();";
+      hovertime = "1000";
+      text = "Quit";
+      groupNum = "-1";
+      buttonType = "PushButton";
+      useMouseEvents = "0";
+      bitmap = "~/gui/images/Quit";
+   };
+   new GuiBitmapButtonCtrl() {
+      canSaveDynamicFields = "0";
+      isContainer = "0";
+      Profile = "GuiDefaultProfile";
+      HorizSizing = "right";
+      VertSizing = "bottom";
+      Position = "288 424";
+      Extent = "200 75";
+      MinExtent = "8 2";
+      canSave = "1";
+      Visible = "1";
+      Command = "showCredits();";
+      hovertime = "1000";
+      groupNum = "-1";
+      buttonType = "PushButton";
+      useMouseEvents = "0";
+      bitmap = "~/gui/images/Credits";
+   };
+};
+//--- OBJECT WRITE END ---

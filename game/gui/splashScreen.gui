@@ -1,0 +1,21 @@
+//--- OBJECT WRITE BEGIN ---
+%guiContent = new GuiFadeinBitmapCtrl(splashScreen) {
+   canSaveDynamicFields = "0";
+   isContainer = "1";
+   Profile = "GuiDefaultProfile";
+   HorizSizing = "right";
+   VertSizing = "bottom";
+   Position = "0 0";
+   Extent = "800 600";
+   MinExtent = "8 2";
+   canSave = "1";
+   Visible = "1";
+   hovertime = "1000";
+   bitmap = "~/gui/images/splash.png";
+   wrap = "0";
+   fadeinTime = "1000";
+   waitTime = "4000";
+   fadeoutTime = "1000";
+   done = "0";
+};
+//--- OBJECT WRITE END ---
